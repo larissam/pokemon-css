@@ -7,6 +7,7 @@
 .charmander {
   $orange: rgb(255, 118, 0);
   background: $orange;
+  margin-left: 600px;
 
   .head {
     height: 143px;
@@ -218,7 +219,7 @@
         border-top-left-radius: 50px;
         left: -9px;
         top: -13px;
-        transform: rotate(-9deg) scale(1.25);
+        transform: rotate(-9deg) scale(1.6);
 
         &:before {
           @include pseudoElementStyle();

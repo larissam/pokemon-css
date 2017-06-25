@@ -1,5 +1,6 @@
 .charmander {
-  background: #ff7600; }
+  background: #ff7600;
+  margin-left: 600px; }
   .charmander .head {
     height: 143px;
     width: 150px;
@@ -165,7 +166,7 @@
         border-top-left-radius: 50px;
         left: -9px;
         top: -13px;
-        transform: rotate(-9deg) scale(1.25); }
+        transform: rotate(-9deg) scale(1.6); }
         .charmander .body .tail .flame:before {
           content: '';
           background: inherit;
