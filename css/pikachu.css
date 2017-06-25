@@ -1,0 +1,290 @@
+.pikachu .body {
+  background: #fcd000;
+  height: 300px;
+  width: 200px;
+  transform: rotate(-15deg) skewX(5deg);
+  border-top: 2px solid black;
+  border-top-left-radius: 130px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 220px;
+  border-bottom-right-radius: 200px;
+  border-bottom: 7px solid black; }
+  .pikachu .body:before {
+    content: '';
+    height: 70px;
+    width: 50px;
+    background: inherit;
+    position: absolute;
+    top: 40px;
+    left: -5px;
+    border-bottom-left-radius: 20px 100%;
+    border-top-left-radius: 20px 100%; }
+  .pikachu .body:after {
+    content: '';
+    height: 100px;
+    width: 30px;
+    background: inherit;
+    position: absolute;
+    top: 30px;
+    right: 7px;
+    border-bottom-right-radius: 20px 100%;
+    border-top-right-radius: 60px 100%; }
+  .pikachu .body .left-ear {
+    height: 120px;
+    width: 40px;
+    background: inherit;
+    position: absolute;
+    top: -115px;
+    left: 40px;
+    transform: rotate(20deg);
+    border-top-left-radius: 30px 100%;
+    border-top-right-radius: 20px 70%;
+    border-top: 30px solid black; }
+  .pikachu .body .right-ear {
+    height: 130px;
+    width: 45px;
+    background: inherit;
+    position: absolute;
+    top: -95px;
+    left: 170px;
+    transform: rotate(45deg);
+    border-top-left-radius: 30px 90%;
+    border-top-right-radius: 10px 70%;
+    border-top: 30px solid black; }
+  .pikachu .body .eye {
+    height: 30px;
+    width: 30px;
+    background: black; }
+  .pikachu .body .left-eye {
+    left: 20px;
+    top: 30px;
+    border-radius: 30px; }
+    .pikachu .body .left-eye:before {
+      content: '';
+      height: 9px;
+      width: 9px;
+      background: white;
+      position: absolute;
+      border-radius: 10px;
+      right: 5px;
+      top: 4px; }
+  .pikachu .body .right-eye {
+    right: 70px;
+    top: 35px;
+    border-radius: 30px; }
+    .pikachu .body .right-eye:before {
+      content: '';
+      height: 11px;
+      width: 11px;
+      background: white;
+      position: absolute;
+      border-radius: 10px;
+      left: 8px;
+      top: 2px; }
+  .pikachu .body .cheek {
+    background: red;
+    border-radius: 50%; }
+  .pikachu .body .left-cheek {
+    height: 20px;
+    width: 20px;
+    top: 55px;
+    left: 3px; }
+  .pikachu .body .right-cheek {
+    height: 25px;
+    width: 25px;
+    top: 60px;
+    right: 50px; }
+  .pikachu .body .left-lip {
+    height: 25px;
+    width: 25px;
+    background: #fcd000;
+    position: absolute;
+    border-bottom-right-radius: 25px;
+    top: 52px;
+    left: 50px; }
+  .pikachu .body .right-lip {
+    height: 25px;
+    width: 25px;
+    background: #fcd000;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    top: 52px;
+    right: 110px; }
+  .pikachu .body .mouth {
+    height: 30px;
+    width: 27px;
+    background: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px 100%;
+    top: 65px;
+    left: 55px;
+    overflow: hidden; }
+    .pikachu .body .mouth .tongue {
+      height: 20px;
+      width: 20px;
+      background: red;
+      border-radius: 10px;
+      bottom: -10px;
+      left: 5px; }
+  .pikachu .body .nose {
+    height: 2px;
+    width: 3px;
+    background: black;
+    top: 60px;
+    left: 65px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px; }
+
+.pikachu .arm {
+  width: 50px;
+  height: 80px;
+  background: #fcd000; }
+
+.pikachu .left-arm {
+  top: 120px;
+  left: -40px;
+  border-top-left-radius: 29px 100%;
+  border-top-right-radius: 29px;
+  border-left: 1px solid black;
+  transform: rotate(-67deg); }
+  .pikachu .left-arm:before {
+    content: '';
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    background: inherit;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    left: 15px;
+    top: 12px;
+    transform: rotate(30deg); }
+
+.pikachu .right-arm {
+  left: 178px;
+  top: 50px;
+  transform: rotate(29deg);
+  border-top-right-radius: 29px 100%;
+  border-top-left-radius: 29px;
+  border-top: 3px solid black;
+  border-right: 3px solid black; }
+  .pikachu .right-arm:before {
+    content: '';
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    background: inherit;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    left: 23px;
+    top: 12px;
+    transform: rotate(40deg); }
+
+.pikachu .foot {
+  background: #fcd000;
+  width: 55px; }
+
+.pikachu .left-foot {
+  height: 70px;
+  top: 262px;
+  left: 40px;
+  border-bottom-left-radius: 30px 78%;
+  border-bottom-right-radius: 20px 100%;
+  border-left: 1px solid black; }
+  .pikachu .left-foot:before {
+    content: '';
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    bottom: 0;
+    left: 25px;
+    transform: rotate(50deg); }
+
+.pikachu .right-foot {
+  height: 70px;
+  top: 240px;
+  left: 195px;
+  border-bottom-left-radius: 30px 78%;
+  border-bottom-right-radius: 60px 100%;
+  transform: rotate(-59deg);
+  border-left: 4px solid black; }
+  .pikachu .right-foot:before {
+    content: '';
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    bottom: 0;
+    left: 15px;
+    transform: rotate(-50deg); }
+
+.pikachu .tail {
+  background: #fcd000;
+  width: 50px;
+  height: 30px;
+  top: 180px;
+  left: 210px;
+  border-radius: 10px/50%;
+  border-bottom: 3px solid black;
+  transform: rotate(-25deg); }
+  .pikachu .tail .tail-bottom {
+    width: 50px;
+    height: 30px;
+    background: #a5762a;
+    border-bottom-right-radius: 10px 40%;
+    border-right: 1px solid black;
+    left: -1px;
+    z-index: -1; }
+  .pikachu .tail:before {
+    content: '';
+    height: 160px;
+    width: 60px;
+    background: inherit;
+    position: absolute;
+    border-top-right-radius: 100px 60%;
+    border-bottom-right-radius: 100px 100%;
+    border-right: 6px solid black;
+    top: -90px;
+    left: -40px; }
+  .pikachu .tail:after {
+    content: '';
+    height: 170px;
+    width: 60px;
+    background: inherit;
+    position: absolute;
+    border-bottom-right-radius: 100px 100%;
+    top: -90px;
+    left: -40px; }
+  .pikachu .tail .tail1 {
+    width: 19px;
+    height: 30px;
+    background: inherit;
+    top: -30px;
+    right: 0px;
+    border-right: 1px solid black; }
+  .pikachu .tail .tail2 {
+    width: 70px;
+    height: 30px;
+    background: inherit;
+    top: -50px;
+    left: 30px;
+    border-radius: 10px/50%;
+    border-bottom-left-radius: 0; }
+  .pikachu .tail .tail3 {
+    height: 80px;
+    width: 50px;
+    background: inherit;
+    top: -100px;
+    left: 70px;
+    border-radius: 10px/50%;
+    border-right: 1px solid black; }
+  .pikachu .tail .tail4 {
+    width: 150px;
+    height: 70px;
+    background: inherit;
+    top: -140px;
+    left: 70px;
+    border-radius: 10px/50%;
+    border-bottom-left-radius: 0; }

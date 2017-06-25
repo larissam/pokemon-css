@@ -1,0 +1,5 @@
+.pokemon {
+  margin: 100px;
+  position: relative; }
+  .pokemon * {
+    position: absolute; }
