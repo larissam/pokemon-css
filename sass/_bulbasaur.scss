@@ -1,0 +1,11 @@
+@mixin pseudoElementStyle() {
+  content: '';
+  background: inherit;
+  position: absolute;
+}
+
+.bulbasaur {
+  .body {
+  }
+}
+

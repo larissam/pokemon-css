@@ -4,3 +4,15 @@
 
   * { position: absolute; }
 }
+
+@mixin pseudoElementStyle() {
+  content: '';
+  background: inherit;
+  position: absolute;
+}
+
+
+@import 'pikachu';
+@import 'charmander';
+@import 'bulbasaur';
+@import 'squirtle';

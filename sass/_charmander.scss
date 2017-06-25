@@ -1,9 +1,3 @@
-@mixin pseudoElementStyle() {
-  content: '';
-  background: inherit;
-  position: absolute;
-}
-
 .charmander {
   $orange: rgb(255, 118, 0);
   background: $orange;

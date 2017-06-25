@@ -3,3 +3,500 @@
   position: relative; }
   .pokemon * {
     position: absolute; }
+
+.pikachu .body {
+  background: #fcd000;
+  height: 300px;
+  width: 200px;
+  transform: rotate(-15deg) skewX(5deg);
+  border-top: 2px solid black;
+  border-top-left-radius: 130px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 220px;
+  border-bottom-right-radius: 200px;
+  border-bottom: 7px solid black; }
+  .pikachu .body:before {
+    content: '';
+    height: 70px;
+    width: 50px;
+    background: inherit;
+    position: absolute;
+    top: 40px;
+    left: -5px;
+    border-bottom-left-radius: 20px 100%;
+    border-top-left-radius: 20px 100%; }
+  .pikachu .body:after {
+    content: '';
+    height: 100px;
+    width: 30px;
+    background: inherit;
+    position: absolute;
+    top: 30px;
+    right: 7px;
+    border-bottom-right-radius: 20px 100%;
+    border-top-right-radius: 60px 100%; }
+  .pikachu .body .left-ear {
+    height: 120px;
+    width: 40px;
+    background: inherit;
+    position: absolute;
+    top: -115px;
+    left: 40px;
+    transform: rotate(20deg);
+    border-top-left-radius: 30px 100%;
+    border-top-right-radius: 20px 70%;
+    border-top: 30px solid black; }
+  .pikachu .body .right-ear {
+    height: 130px;
+    width: 45px;
+    background: inherit;
+    position: absolute;
+    top: -95px;
+    left: 170px;
+    transform: rotate(45deg);
+    border-top-left-radius: 30px 90%;
+    border-top-right-radius: 10px 70%;
+    border-top: 30px solid black; }
+  .pikachu .body .eye {
+    height: 30px;
+    width: 30px;
+    background: black; }
+  .pikachu .body .left-eye {
+    left: 20px;
+    top: 30px;
+    border-radius: 30px; }
+    .pikachu .body .left-eye:before {
+      content: '';
+      height: 9px;
+      width: 9px;
+      background: white;
+      position: absolute;
+      border-radius: 10px;
+      right: 5px;
+      top: 4px; }
+  .pikachu .body .right-eye {
+    right: 70px;
+    top: 35px;
+    border-radius: 30px; }
+    .pikachu .body .right-eye:before {
+      content: '';
+      height: 11px;
+      width: 11px;
+      background: white;
+      position: absolute;
+      border-radius: 10px;
+      left: 8px;
+      top: 2px; }
+  .pikachu .body .cheek {
+    background: red;
+    border-radius: 50%; }
+  .pikachu .body .left-cheek {
+    height: 20px;
+    width: 20px;
+    top: 55px;
+    left: 3px; }
+  .pikachu .body .right-cheek {
+    height: 25px;
+    width: 25px;
+    top: 60px;
+    right: 50px; }
+  .pikachu .body .left-lip {
+    height: 25px;
+    width: 25px;
+    background: #fcd000;
+    position: absolute;
+    border-bottom-right-radius: 25px;
+    top: 52px;
+    left: 50px; }
+  .pikachu .body .right-lip {
+    height: 25px;
+    width: 25px;
+    background: #fcd000;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    top: 52px;
+    right: 110px; }
+  .pikachu .body .mouth {
+    height: 30px;
+    width: 27px;
+    background: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px 100%;
+    top: 65px;
+    left: 55px;
+    overflow: hidden; }
+    .pikachu .body .mouth .tongue {
+      height: 20px;
+      width: 20px;
+      background: red;
+      border-radius: 10px;
+      bottom: -10px;
+      left: 5px; }
+  .pikachu .body .nose {
+    height: 2px;
+    width: 3px;
+    background: black;
+    top: 60px;
+    left: 65px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px; }
+
+.pikachu .arm {
+  width: 50px;
+  height: 80px;
+  background: #fcd000; }
+
+.pikachu .left-arm {
+  top: 120px;
+  left: -40px;
+  border-top-left-radius: 29px 100%;
+  border-top-right-radius: 29px;
+  border-left: 1px solid black;
+  transform: rotate(-67deg); }
+  .pikachu .left-arm:before {
+    content: '';
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    background: inherit;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    left: 15px;
+    top: 12px;
+    transform: rotate(30deg); }
+
+.pikachu .right-arm {
+  left: 178px;
+  top: 50px;
+  transform: rotate(29deg);
+  border-top-right-radius: 29px 100%;
+  border-top-left-radius: 29px;
+  border-top: 3px solid black;
+  border-right: 3px solid black; }
+  .pikachu .right-arm:before {
+    content: '';
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    background: inherit;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    left: 23px;
+    top: 12px;
+    transform: rotate(40deg); }
+
+.pikachu .foot {
+  background: #fcd000;
+  width: 55px; }
+
+.pikachu .left-foot {
+  height: 70px;
+  top: 262px;
+  left: 40px;
+  border-bottom-left-radius: 30px 78%;
+  border-bottom-right-radius: 20px 100%;
+  border-left: 1px solid black; }
+  .pikachu .left-foot:before {
+    content: '';
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    bottom: 0;
+    left: 25px;
+    transform: rotate(50deg); }
+
+.pikachu .right-foot {
+  height: 70px;
+  top: 240px;
+  left: 195px;
+  border-bottom-left-radius: 30px 78%;
+  border-bottom-right-radius: 60px 100%;
+  transform: rotate(-59deg);
+  border-left: 4px solid black; }
+  .pikachu .right-foot:before {
+    content: '';
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    bottom: 0;
+    left: 15px;
+    transform: rotate(-50deg); }
+
+.pikachu .tail {
+  background: #fcd000;
+  width: 50px;
+  height: 30px;
+  top: 180px;
+  left: 210px;
+  border-radius: 10px/50%;
+  border-bottom: 3px solid black;
+  transform: rotate(-25deg); }
+  .pikachu .tail .tail-bottom {
+    width: 50px;
+    height: 30px;
+    background: #a5762a;
+    border-bottom-right-radius: 10px 40%;
+    border-right: 1px solid black;
+    left: -1px;
+    z-index: -1; }
+  .pikachu .tail:before {
+    content: '';
+    height: 160px;
+    width: 60px;
+    background: inherit;
+    position: absolute;
+    border-top-right-radius: 100px 60%;
+    border-bottom-right-radius: 100px 100%;
+    border-right: 6px solid black;
+    top: -90px;
+    left: -40px; }
+  .pikachu .tail:after {
+    content: '';
+    height: 170px;
+    width: 60px;
+    background: inherit;
+    position: absolute;
+    border-bottom-right-radius: 100px 100%;
+    top: -90px;
+    left: -40px; }
+  .pikachu .tail .tail1 {
+    width: 19px;
+    height: 30px;
+    background: inherit;
+    top: -30px;
+    right: 0px;
+    border-right: 1px solid black; }
+  .pikachu .tail .tail2 {
+    width: 70px;
+    height: 30px;
+    background: inherit;
+    top: -50px;
+    left: 30px;
+    border-radius: 10px/50%;
+    border-bottom-left-radius: 0; }
+  .pikachu .tail .tail3 {
+    height: 80px;
+    width: 50px;
+    background: inherit;
+    top: -100px;
+    left: 70px;
+    border-radius: 10px/50%;
+    border-right: 1px solid black; }
+  .pikachu .tail .tail4 {
+    width: 150px;
+    height: 70px;
+    background: inherit;
+    top: -140px;
+    left: 70px;
+    border-radius: 10px/50%;
+    border-bottom-left-radius: 0; }
+
+.charmander {
+  background: #ff7600;
+  margin-left: 600px; }
+  .charmander .head {
+    height: 143px;
+    width: 150px;
+    background: inherit;
+    border-top-right-radius: 75px 61%;
+    border-top-left-radius: 72px;
+    border-bottom-right-radius: 42px;
+    border-bottom-left-radius: 60px 49%;
+    border-bottom: 3px solid black;
+    transform: scale(1.1); }
+    .charmander .head:before {
+      content: '';
+      background: inherit;
+      position: absolute;
+      height: 85px;
+      width: 100px;
+      bottom: 0;
+      right: -6px;
+      border-bottom-right-radius: 100px;
+      border-top-right-radius: 33px 100%;
+      border-right: 3px solid black; }
+    .charmander .head .eye {
+      height: 30px;
+      width: 30px;
+      background: black;
+      border-radius: 15px; }
+      .charmander .head .eye:before {
+        content: '';
+        background: inherit;
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: white;
+        border-radius: 5px;
+        top: 5px;
+        right: 4px; }
+    .charmander .head .left-eye {
+      top: 65px;
+      left: 46px;
+      transform: scale(1.1); }
+    .charmander .head .right-eye {
+      top: 58px;
+      right: 7px; }
+    .charmander .head .cheek {
+      height: 20px;
+      width: 40px;
+      background: pink;
+      border-radius: 30px/100%; }
+    .charmander .head .left-cheek {
+      top: 87px;
+      left: 28px;
+      transform: scale(1.1); }
+    .charmander .head .right-cheek {
+      top: 79px;
+      right: -14px;
+      transform: rotate(-5deg); }
+    .charmander .head .mouth {
+      display: none;
+      bottom: 9px;
+      left: 4px; }
+      .charmander .head .mouth:before {
+        content: '';
+        background: inherit;
+        position: absolute;
+        height: 6px;
+        width: 8px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 8px;
+        border-bottom: 2px solid black;
+        bottom: 23px;
+        left: 88px; }
+  .charmander .body {
+    height: 186px;
+    width: 155px;
+    background: inherit;
+    top: 100px;
+    border-radius: 100px/75%;
+    border-top-right-radius: 150px;
+    border-right: 3px solid black; }
+    .charmander .body .stomach {
+      height: 93px;
+      width: 90px;
+      background: #fcae00;
+      border-bottom-left-radius: 34px 60%;
+      border-bottom-right-radius: 131px 100%;
+      border-top-left-radius: 166px 60%;
+      border-top-right-radius: 9px 100%;
+      bottom: 0px;
+      right: -4px;
+      border-right: 4px solid black; }
+    .charmander .body .arm {
+      height: 54px;
+      width: 38px;
+      background: inherit;
+      border-radius: 25px 75%;
+      transform: rotate(-20deg);
+      border-right: 2px solid black;
+      border-bottom: 1px solid black; }
+    .charmander .body .left-arm {
+      top: 66px;
+      left: 58px; }
+    .charmander .body .right-arm {
+      top: 59px;
+      right: -11px;
+      z-index: -1; }
+    .charmander .body .left-leg {
+      height: 88px;
+      width: 83px;
+      background: inherit;
+      bottom: 0;
+      left: -11px;
+      border-top-left-radius: 50px 70%;
+      border-bottom-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-left: 3px solid black;
+      border-top: 5px solid black; }
+      .charmander .body .left-leg .left-hind-paw {
+        height: 44px;
+        width: 50px;
+        background: inherit;
+        right: -20px;
+        bottom: 0;
+        border-radius: 20px 75%;
+        transform: rotate(80deg);
+        border-top: 2px solid black;
+        border-left: 1px solid black; }
+    .charmander .body .right-leg {
+      height: 92px;
+      width: 100px;
+      background: inherit;
+      bottom: 0;
+      right: -20px;
+      border-bottom-right-radius: 50px 70%;
+      border-bottom-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top: 5px solid black;
+      z-index: -1; }
+      .charmander .body .right-leg .right-hind-paw {
+        height: 44px;
+        width: 48px;
+        background: inherit;
+        right: -15px;
+        bottom: 0;
+        border-radius: 20px 75%;
+        transform: rotate(100deg) scaleY(0.8);
+        border-top: 2px solid black;
+        border-left: 1px solid black; }
+    .charmander .body .tail {
+      height: 174px;
+      width: 86px;
+      border-radius: 123px;
+      border-top-left-radius: 200px 152%;
+      border-left: 44px solid #ff7600;
+      transform: rotate(-31deg) scale(1.2);
+      left: -53px;
+      bottom: 22px; }
+      .charmander .body .tail .flame {
+        height: 40px;
+        width: 39px;
+        background: red;
+        border-bottom-left-radius: 38px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        left: -9px;
+        top: -13px;
+        transform: rotate(-9deg) scale(1.6); }
+        .charmander .body .tail .flame:before {
+          content: '';
+          background: inherit;
+          position: absolute;
+          height: 40px;
+          width: 40px;
+          background: red;
+          border-bottom-left-radius: 38px;
+          border-bottom-right-radius: 50px;
+          border-top-left-radius: 50px;
+          left: -3px;
+          top: -2px;
+          transform: rotate(-10deg);
+          border-left: 2px solid black; }
+        .charmander .body .tail .flame:after {
+          content: '';
+          background: inherit;
+          position: absolute;
+          height: 30px;
+          width: 30px;
+          background: #fcd000;
+          border-bottom-left-radius: 39px;
+          border-bottom-right-radius: 50px;
+          border-top-left-radius: 50px;
+          left: 1px;
+          top: 9px;
+          transform: rotate(-9deg); }
+    .charmander .body .tail-shadow {
+      height: 174px;
+      width: 86px;
+      border-radius: 123px;
+      border-top-left-radius: 200px 152%;
+      border-left: 44px solid black;
+      transform: rotate(-28deg) scale(1.2);
+      left: -55px;
+      bottom: 22px; }
