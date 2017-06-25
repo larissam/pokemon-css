@@ -500,3 +500,79 @@
       transform: rotate(-28deg) scale(1.2);
       left: -55px;
       bottom: 22px; }
+
+.bulbasaur {
+  background: #32b786; }
+  .bulbasaur .head {
+    width: 190px;
+    height: 133px;
+    background: inherit;
+    border-radius: 120px 75%;
+    border-bottom: 4px solid black;
+    border-right: 2px solid black; }
+    .bulbasaur .head:before {
+      content: '';
+      background: inherit;
+      position: absolute;
+      width: 50px;
+      height: 100px;
+      border-radius: 50px/100%;
+      top: -26px;
+      left: 7px;
+      transform: rotate(14deg); }
+    .bulbasaur .head:after {
+      content: '';
+      background: inherit;
+      position: absolute;
+      width: 55px;
+      height: 100px;
+      border-radius: 50px/100%;
+      top: -20px;
+      right: 4px;
+      transform: rotate(14deg); }
+  .bulbasaur .body {
+    width: 250px;
+    height: 150px;
+    background: inherit;
+    border-radius: 150px 75%;
+    top: 39px;
+    left: 50px; }
+  .bulbasaur .bulb {
+    width: 198px;
+    height: 158px;
+    background: #19861c;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 82px;
+    border-top-left-radius: 91px;
+    left: 96px;
+    top: -39px;
+    transform: rotate(-4deg) skewX(16deg) skewY(-5deg);
+    border-left: 8px solid black;
+    border-right: 3px solid black; }
+    .bulbasaur .bulb:before {
+      content: '';
+      background: inherit;
+      position: absolute;
+      width: 90px;
+      height: 160px;
+      border-bottom-left-radius: 200px;
+      border-top-right-radius: 200px;
+      left: 50px;
+      top: -20px;
+      transform: rotate(74deg) skewX(5deg); }
+    .bulbasaur .bulb:after {
+      content: '';
+      background: inherit;
+      position: absolute;
+      width: 90px;
+      height: 160px;
+      left: 63px;
+      top: -26px;
+      transform: rotate(78deg);
+      border: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      border-left: 4px solid #54b353;
+      border-right: 6px solid #54b353;
+      border-bottom-left-radius: 200px;
+      border-top-right-radius: 200px; }
