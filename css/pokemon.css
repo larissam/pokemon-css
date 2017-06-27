@@ -796,7 +796,7 @@
     top: 100px;
     left: -28px;
     border-radius: 100px 51%;
-    border-left: 1px solid black;
+    border-left: 5px solid black;
     border-bottom: 2px solid black;
     transform: scaleX(0.95); }
     .squirtle .body .shell {
@@ -836,8 +836,8 @@
       left: -48px;
       border-radius: 30px 75%;
       border-bottom-right-radius: 23px;
-      border-right: 3px solid black;
-      border-bottom: 2px solid black;
+      border-right: 2px solid black;
+      border-bottom: 3px solid black;
       transform: rotate(15deg); }
     .squirtle .body .right-arm {
       height: 54px;
@@ -852,10 +852,11 @@
       height: 90px;
       width: 90px;
       background: #00d0ff;
-      bottom: -4px;
+      bottom: -7px;
       border-radius: 45px 61%;
+      border-left: 1px solid black;
       border-top: 1px solid black;
-      border-bottom: 3px solid black;
+      border-bottom: 4px solid black;
       border-right: 2px solid black;
       transform: scale(1.1); }
     .squirtle .body .left-foot {
@@ -865,7 +866,7 @@
       bottom: 0;
       border-radius: 22px 61%;
       border: 1px solid black;
-      border-left: 2px solid black;
+      border-left: 3px solid black;
       border-right: 3px solid black; }
     .squirtle .body .left-toes {
       height: 10px;
@@ -901,11 +902,11 @@
       height: 90px;
       width: 90px;
       background: #00d0ff;
-      bottom: 12px;
-      right: -4px;
+      bottom: 4px;
+      right: 0;
       border-right: 1px solid black;
       border-radius: 45px 61%;
-      border-bottom: 2px solid black;
+      border-bottom: 3px solid black;
       transform: scale(1.1); }
     .squirtle .body .right-foot {
       height: 45px;
@@ -952,10 +953,10 @@
     width: 159px;
     height: 130px;
     border-bottom: 50px solid #00d0ff;
-    top: 126px;
-    left: -87px;
+    top: 88px;
+    left: -38px;
     border-radius: 69% 165px;
-    transform: rotate(29deg) scale(1.2) skewX(-3deg); }
+    transform: rotate(29deg) scale(1.4) skewX(-3deg); }
     .squirtle .tail:before {
       content: '';
       background: inherit;
@@ -984,9 +985,9 @@
       border-right: 2px solid black; }
   .squirtle .tail-shadow {
     width: 159px;
-    height: 130px;
+    height: 137px;
     border-bottom: 50px solid black;
-    top: 129px;
-    left: -89px;
+    top: 82px;
+    left: -38px;
     border-radius: 69% 165px;
-    transform: rotate(21deg) scale(1.2) skewX(-3deg); }
+    transform: rotate(33deg) scale(1.4) skewX(-3deg); }
