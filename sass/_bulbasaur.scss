@@ -1,5 +1,7 @@
 .bulbasaur {
   background: #32b786;
+  $spotColor: rgba(0, 128, 116, 0.49);
+
   .head {
     width: 190px;
     height: 133px;
@@ -27,15 +29,181 @@
       right: 4px;
       transform: rotate(14deg);
     }
+
+    .spots {
+      height: 29px;
+      width: 41px;
+      background: $spotColor;
+      border-top-left-radius: 43px;
+      border-top-right-radius: 7px;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 42px;
+      left: 65px;
+      top: 7px;
+      transform: rotate(21deg) scale(1.1);
+
+      &:before {
+        @include pseudoElementStyle();
+        height: 10px;
+        width: 10px;
+        bottom: -15px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 5px;
+      }
+
+      &:after {
+        @include pseudoElementStyle();
+        height: 19px;
+        width: 15px;
+        bottom: -15px;
+        right: 0;
+        border-top-left-radius: 10px 75%;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 2px;
+        transform: rotate(22deg);
+      }
+    }
+
+    .face {
+      width: 200px;
+      top: 10px;
+    }
+
+    .eye {
+      height: 30px;
+      width: 30px;
+      background: black;
+      border-radius: 15px;
+      z-index: 1;
+
+      &:before {
+        @include pseudoElementStyle();
+        height: 10px;
+        width: 10px;
+        background: white;
+        border-radius: 5px;
+        top: 5px;
+        right: 4px;
+      }
+    }
+
+    .left-eye {
+      top: 37px;
+      left: 16px;
+    }
+
+    .right-eye {
+      top: 43px;
+      right: 56px;
+      transform: scale(1.1);
+    }
+
+    .cheek {
+      height: 20px;
+      width: 40px;
+      background: pink;
+      border-radius: 30px/100%;
+      z-index: 1;
+    }
+
+    .left-cheek {
+      top: 59px;
+      left: -6px;
+    }
+
+    .right-cheek {
+      top: 65px;
+      right: 35px;
+    }
+
   }
   .body {
     width: 250px;
     height: 150px;
     background: inherit;
     border-radius: 150px 75%;
+    border-bottom-right-radius: 126px;
     top: 39px;
     left: 50px;
+    border-bottom: 4px solid black;
+    border-right: 3px solid black;
+    border-left: 1px solid black;
+
+    &:before {
+      @include pseudoElementStyle();
+      width: 47px;
+      height: 71px;
+      background: inherit;
+      bottom: -14px;
+      left: 10px;
+      border-radius: 54px 75%;
+      border-bottom: 3px solid black;
+    }
+
+    &:after {
+      @include pseudoElementStyle();
+      width: 51px;
+      height: 74px;
+      bottom: -21px;
+      right: 2px;
+      border-radius: 54px 75%;
+      border-top-right-radius: 3px;
+      transform: rotate(5deg);
+      border-right: 3px solid black;
+      border-bottom: 5px solid black;
+    }
+
+    .back-leg {
+      width: 47px;
+      height: 71px;
+      background: inherit;
+      bottom: -14px;
+      left: 65px;
+      border-radius: 54px 75%;
+      transform: rotate(10deg);
+      z-index: -1;
+      border-bottom: 3px solid black;
+    }
+
+    .spots {
+      width: 35px;
+      height: 40px;
+      background: rgba(0, 128, 116, 0.49);
+      bottom: 4px;
+      left: 10px;
+      z-index: 1;
+      border-top-left-radius: 20px 75%;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 15px;
+
+      &:before {
+        @include pseudoElementStyle();
+        width: 57px;
+        height: 49px;
+        top: -90px;
+        left: 173px;
+        border-top-right-radius: 65px 100%;
+        border-top-left-radius: 14px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 36px;
+        transform: rotate(-10deg);
+      }
+
+      &:after {
+        @include pseudoElementStyle();
+        width: 28px;
+        height: 28px;
+        top: 10px;
+        left: 145px;
+        border-bottom-left-radius: 14px;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 5px;
+        transform: rotate(-11deg);
+      }
+    }
   }
+
   .bulb {
     width: 198px;
     height: 158px;
