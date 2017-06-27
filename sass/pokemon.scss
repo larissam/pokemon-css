@@ -1,10 +1,11 @@
 .pokemon-container {
-  margin: 100px;
+  display: flex;
 }
 
 .pokemon {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
+  flex-grow: 1;
 
   position: relative;
   * { position: absolute; }

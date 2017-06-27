@@ -1,15 +1,17 @@
 .pokemon-container {
-  margin: 100px; }
+  display: flex; }
 
 .pokemon {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
+  flex-grow: 1;
   position: relative; }
   .pokemon * {
     position: absolute; }
 
 .charmander {
-  background: #ff7600; }
+  background: #ff7600;
+  margin: 35px 0 0 150px; }
   .charmander .head {
     height: 143px;
     width: 150px;
@@ -214,7 +216,8 @@
       bottom: 22px; }
 
 .bulbasaur {
-  background: #32b786; }
+  background: #32b786;
+  margin: 92px 45px; }
   .bulbasaur .head {
     width: 190px;
     height: 133px;
@@ -435,7 +438,7 @@
 
 .squirtle {
   background: #00d0ff;
-  margin-left: 100px; }
+  margin: 25px 0 0 145px; }
   .squirtle .head {
     height: 143px;
     width: 150px;
