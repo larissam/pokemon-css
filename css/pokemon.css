@@ -720,3 +720,270 @@
       border-right: 6px solid #54b353;
       border-bottom-left-radius: 200px;
       border-top-right-radius: 200px; }
+
+.squirtle {
+  background: #00d0ff;
+  margin-left: 100px; }
+  .squirtle .head {
+    height: 143px;
+    width: 150px;
+    background: inherit;
+    border-top-left-radius: 80px 54%;
+    border-top-right-radius: 72px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 60px 49%;
+    border-bottom: 3px solid black;
+    border-right: 1px solid black;
+    transform: scale(1.1) rotate(4deg); }
+    .squirtle .head:before {
+      content: '';
+      background: inherit;
+      position: absolute;
+      height: 85px;
+      width: 68px;
+      bottom: -2px;
+      left: -7px;
+      border-bottom-left-radius: 100px;
+      border-bottom-right-radius: 7px;
+      border-top-left-radius: 33px 100%;
+      border-left: 3px solid black;
+      border-bottom: 3px solid black;
+      transform: rotate(2deg); }
+    .squirtle .head .face {
+      width: 150px;
+      top: 16px; }
+    .squirtle .head .eye {
+      height: 30px;
+      width: 30px;
+      background: black;
+      border-radius: 15px; }
+      .squirtle .head .eye:before {
+        content: '';
+        background: inherit;
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: white;
+        border-radius: 5px;
+        top: 5px;
+        right: 4px; }
+    .squirtle .head .left-eye {
+      top: 47px;
+      left: 11px; }
+    .squirtle .head .right-eye {
+      top: 51px;
+      right: 38px;
+      transform: scale(1.1); }
+    .squirtle .head .cheek {
+      height: 20px;
+      width: 40px;
+      background: pink;
+      border-radius: 30px/100%; }
+    .squirtle .head .left-cheek {
+      top: 66px;
+      left: -9px; }
+    .squirtle .head .right-cheek {
+      top: 69px;
+      right: 20px;
+      transform: scale(1.1); }
+  .squirtle .body {
+    height: 200px;
+    width: 212px;
+    background: #a5762a;
+    top: 100px;
+    left: -28px;
+    border-radius: 100px 51%;
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+    transform: scaleX(0.95); }
+    .squirtle .body .shell {
+      height: 200px;
+      width: 171px;
+      background: #fcd000;
+      border-radius: 100px 51%;
+      border-left: 10px solid white;
+      border-right: 2px solid black;
+      border-bottom: 3px solid black;
+      right: 0; }
+      .squirtle .body .shell:before {
+        content: '';
+        background: inherit;
+        position: absolute;
+        height: 80px;
+        width: 170px;
+        border-bottom: 5px solid #ffea86;
+        top: 42px;
+        border-radius: 105px/65%; }
+      .squirtle .body .shell:after {
+        content: '';
+        background: inherit;
+        position: absolute;
+        background: none;
+        height: 156px;
+        width: 80px;
+        border-right: 5px solid #ffea86;
+        top: 42px;
+        left: 40px;
+        border-radius: 42px/65%; }
+    .squirtle .body .left-arm {
+      height: 54px;
+      width: 107px;
+      background: #00d0ff;
+      top: 8px;
+      left: -48px;
+      border-radius: 30px 75%;
+      border-bottom-right-radius: 23px;
+      border-right: 3px solid black;
+      border-bottom: 2px solid black;
+      transform: rotate(15deg); }
+    .squirtle .body .right-arm {
+      height: 54px;
+      width: 107px;
+      background: #00d0ff;
+      top: -1px;
+      right: -27px;
+      border-radius: 75% 30px;
+      border-bottom: 1px solid black;
+      transform: rotate(-27deg) scale(0.9); }
+    .squirtle .body .left-leg {
+      height: 90px;
+      width: 90px;
+      background: #00d0ff;
+      bottom: -4px;
+      border-radius: 45px 61%;
+      border-top: 1px solid black;
+      border-bottom: 3px solid black;
+      border-right: 2px solid black;
+      transform: scale(1.1); }
+    .squirtle .body .left-foot {
+      height: 45px;
+      width: 45px;
+      background: #00d0ff;
+      bottom: 0;
+      border-radius: 22px 61%;
+      border: 1px solid black;
+      border-left: 2px solid black;
+      border-right: 3px solid black; }
+    .squirtle .body .left-toes {
+      height: 10px;
+      width: 10px;
+      background: #00d0ff;
+      border-left: 1px solid black;
+      border-top: 1px solid black; }
+      .squirtle .body .left-toes:before {
+        content: '';
+        background: inherit;
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: #00d0ff;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        left: -7px;
+        top: 11px;
+        transform: rotate(-40deg); }
+      .squirtle .body .left-toes:after {
+        content: '';
+        background: inherit;
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: #00d0ff;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        left: 10px;
+        top: -6px;
+        transform: rotate(40deg); }
+    .squirtle .body .right-leg {
+      height: 90px;
+      width: 90px;
+      background: #00d0ff;
+      bottom: 12px;
+      right: -4px;
+      border-right: 1px solid black;
+      border-radius: 45px 61%;
+      border-bottom: 2px solid black;
+      transform: scale(1.1); }
+    .squirtle .body .right-foot {
+      height: 45px;
+      width: 45px;
+      background: #00d0ff;
+      bottom: 0;
+      right: -11px;
+      border-radius: 22px 61%;
+      border: 1px solid black;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      transform: rotate(90deg) skewX(7deg) scale(0.9); }
+    .squirtle .body .right-toes {
+      height: 10px;
+      width: 10px;
+      background: #00d0ff;
+      border-left: 1px solid black;
+      border-top: 1px solid black; }
+      .squirtle .body .right-toes:before {
+        content: '';
+        background: inherit;
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: #00d0ff;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        left: -7px;
+        top: 11px;
+        transform: rotate(-40deg); }
+      .squirtle .body .right-toes:after {
+        content: '';
+        background: inherit;
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: #00d0ff;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        left: 10px;
+        top: -6px;
+        transform: rotate(40deg); }
+  .squirtle .tail {
+    width: 159px;
+    height: 130px;
+    border-bottom: 50px solid #00d0ff;
+    top: 126px;
+    left: -87px;
+    border-radius: 69% 165px;
+    transform: rotate(29deg) scale(1.2) skewX(-3deg); }
+    .squirtle .tail:before {
+      content: '';
+      background: inherit;
+      position: absolute;
+      width: 59px;
+      height: 63px;
+      background: #00d0ff;
+      bottom: 3px;
+      left: 0px;
+      border-radius: 75% 40px;
+      transform: rotate(-23deg); }
+    .squirtle .tail:after {
+      content: '';
+      background: inherit;
+      position: absolute;
+      width: 37px;
+      height: 47px;
+      bottom: 6px;
+      left: 22px;
+      background: #00d0ff;
+      border-top-right-radius: 30px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      transform: rotate(48deg);
+      border-bottom: 1px solid black;
+      border-right: 2px solid black; }
+  .squirtle .tail-shadow {
+    width: 159px;
+    height: 130px;
+    border-bottom: 50px solid black;
+    top: 129px;
+    left: -89px;
+    border-radius: 69% 165px;
+    transform: rotate(21deg) scale(1.2) skewX(-3deg); }
