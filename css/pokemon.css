@@ -1,5 +1,9 @@
+.pokemon-container {
+  margin: 100px; }
+
 .pokemon {
-  margin: 100px;
+  width: 400px;
+  height: 400px;
   position: relative; }
   .pokemon * {
     position: absolute; }
@@ -296,8 +300,7 @@
     border-bottom-left-radius: 0; }
 
 .charmander {
-  background: #ff7600;
-  margin-left: 600px; }
+  background: #ff7600; }
   .charmander .head {
     height: 143px;
     width: 150px;

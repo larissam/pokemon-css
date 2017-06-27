@@ -1,7 +1,12 @@
-.pokemon {
+.pokemon-container {
   margin: 100px;
-  position: relative;
+}
 
+.pokemon {
+  width: 400px;
+  height: 400px;
+
+  position: relative;
   * { position: absolute; }
 }
 
