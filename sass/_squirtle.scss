@@ -80,34 +80,6 @@
       // transform: rotate(-5deg);
       transform: scale(1.1);
     }
-
-    // .mouth {
-    //   display: none;
-    //   bottom: 9px;
-    //   left: 4px;
-
-    //   &:before {
-    //     @include pseudoElementStyle();
-    //     height: 6px;
-    //     width: 8px;
-    //     border-bottom-left-radius: 15px;
-    //     border-bottom-right-radius: 8px;
-    //     border-bottom: 2px solid black;
-    //     bottom: 23px;
-    //     left: 88px;
-    //   }
-
-    //   // &:after {
-    //   //   @include pseudoElementStyle();
-    //   //   height: 6px;
-    //   //   width: 8px;
-    //   //   border-bottom-left-radius: 8px;
-    //   //   border-bottom-right-radius: 15px;
-    //   //   border-bottom: 2px solid black;
-    //   //   bottom: 23px;
-    //   //   left: 96px;
-    //   // }
-    // }
   } // .head
 
   .body {
