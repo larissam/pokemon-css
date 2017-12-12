@@ -1,5 +1,5 @@
 # pokemon-css
-Pokemon drawings made only with CSS
+Pokemon drawings made with CSS
 
 ![Screenshot](/pokemoncss.png?raw=true "Pokemon CSS")
 
